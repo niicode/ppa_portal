@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+.nav-left {
+  display: flex;
+}
+
+div.nav{
+  width: 100%;
+  background-color: #ffff ;
+  position: fixed;
+  margin-left: 35px;
+  margin-top: 10px;
+}
+
+div.nav-left ul{
+  display: flex;
+}
+
+
+.nav-l li {
+  list-style: none;
+}
+div.nav {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+
+.nav-l {
+  display: flex;
+}
+
+div.nav_left a{
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  font-weight: 900;
+  /* display: flex; */
+  /* font-family: 'Yusei Magic', sans-serif; */
+}
+
+div.nav_right a{
+  text-decoration: none;
+  color: black;
+  padding-left: 20px;
+  /* display: flex; */
+  font-weight: 700;
+  /* font-family: 'Yusei Magic', sans-serif; */
+}
+
+div.nav_right a.button {
+  color:#ffff
+}
+
+div.nav_right a.button:hover{
+  background-color: #258340;
+}
+
+div.nav_left a:hover{
+  color:#41aa5e
+}
+
+.button:hover{
+  background-color: #258340;
+}
+
+
+div.nav_left a:hover {
+  color: #41aa5e; 
+}
+
+div.nav_right {
+  margin-right: 90px;
+}
+
+.main__body {
+  margin-top: 12%;
+  margin-left:35px ;
+}
+
+.main__body h1 {
+  margin-left: 25px;
+}
+
+.main__body a {
+  text-decoration: none;
+  margin-top: 30px;
+  margin-left: 26px;
+}
+
+.img img {
+  height: 350px;
+  object-fit: contain;
+  margin-top: 150px;
+}
+
+.main__body p {
+  margin-left: 28px;
+  margin-bottom: 50px;
+}
+
+.button {
+  color: #fff;
+  margin-left: 9px;
+  background-color: #41aa5e;
+  padding: 10px 20px 10px 20px;
+  border-radius: 7px;
+transform: translate(0, -1px);
+box-shadow: 0 6px 2px -6px rgba(42,134,68,0.6);
+}
+
+
+
+@media only screen and (max-width: 1080px){
+  .main__body h1 {
+    margin-left: 10px;
+  } 
+}
